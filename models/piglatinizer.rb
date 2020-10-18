@@ -12,7 +12,7 @@ class PigLatinizer
   end  
     
   def piglatinize_word(word)  
-    if word.start_with?(/\b[aeiou]/) #starts with vowel
+    if word.start_with?(/\b[AEIOUaeiou]/) #starts with vowel
       word = "#{word}way" #add -way to end of word
     elsif word.start_with?(/\b[bcdfghjklmnpqrstvwxyz]+/)
       parts = word.split(/([aeiou].*)/) 
