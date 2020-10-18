@@ -5,9 +5,10 @@ class PigLatinizer
   end
   
   def separate
+    #separate a string into individual words .split(" ")
     if \b[aeiou] #starts with vowel
-      #remove vowel
       #add -way to end of word
+    if 
   end
   
 end
