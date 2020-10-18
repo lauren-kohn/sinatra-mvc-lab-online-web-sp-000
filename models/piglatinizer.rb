@@ -16,6 +16,7 @@ class PigLatinizer
       word = "#{word}way" #add -way to end of word
     elsif word.start_with?(/\b[bcdfghjklmnpqrstvwxyz]+/)
       parts = word.split(/([aeiou].*)/)
+      ""
         #selects consonants from the beginning of the word
         #move them to the end of the word
         #add -ay
