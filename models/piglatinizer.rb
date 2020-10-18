@@ -11,7 +11,7 @@ class PigLatinizer
     pig_phrase.join(" ")
   end  
     
-    
+  def piglatinize_word(word)  
     word_array.collect do |word|
       if word.start_with?(/\b[aeiou]/) #starts with vowel
         word = "#{word}ay" #add -way to end of word
