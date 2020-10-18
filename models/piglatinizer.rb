@@ -8,7 +8,7 @@ class PigLatinizer
     #separate a string into individual words .split(" ")
     word_array = phrase.split(" ")
     word_array.collect do |word|
-      if word./\b[aeiou]/ #starts with vowel
+      if word.start_with? /\b[aeiou]/ #starts with vowel
         #add -way to end of word
       #if /\b[bcdfghjklmnpqrstvwxyz]+/
         #selects consonants from the beginning of the word
