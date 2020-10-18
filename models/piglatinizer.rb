@@ -8,7 +8,7 @@ class PigLatinizer
     #separate a string into individual words .split(" ")
     word_array = phrase.split(" ")
     pig_phrase = word_array.map {|word| piglatinize_word(word)}
-    
+    pig_phrase = 
   end  
     
     
