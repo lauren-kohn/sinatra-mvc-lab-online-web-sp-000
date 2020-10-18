@@ -10,7 +10,8 @@ class PigLatinizer
     word_array.collect do |word|
       if word.start_with?(/\b[aeiou]/) #starts with vowel
         word = "#{word}ay" #add -way to end of word
-      elsif word.start_with?(/\b[bcdfghjklmnpqrstvwxyz]+/)
+        binding.pry
+      #elsif word.start_with?(/\b[bcdfghjklmnpqrstvwxyz]+/)
         
         #selects consonants from the beginning of the word
         #move them to the end of the word
