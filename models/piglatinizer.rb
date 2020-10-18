@@ -8,7 +8,7 @@ class PigLatinizer
     #separate a string into individual words .split(" ")
     if \b[aeiou] #starts with vowel
       #add -way to end of word
-    if \b[bcdfghjklmnpqrstvwxyz]
+    if \b[bcdfghjklmnpqrstvwxyz]+
   end
   
 end
