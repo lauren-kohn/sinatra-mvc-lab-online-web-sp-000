@@ -13,7 +13,7 @@ class PigLatinizer
     
   def piglatinize_word(word)  
     if word.start_with?(/\b[aeiou]/) #starts with vowel
-      word = "#{word}ay" #add -way to end of word
+      word = "#{word}way" #add -way to end of word
     elsif word.start_with?(/\b[bcdfghjklmnpqrstvwxyz]+/)
       
         #selects consonants from the beginning of the word
