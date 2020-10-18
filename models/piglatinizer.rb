@@ -1,8 +1,8 @@
 class PigLatinizer 
   
-  def initialize
+  #def initialize
     
-  end
+  #end
   
   def piglatinize(phrase)
     #separate a string into individual words .split(" ")
